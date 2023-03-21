@@ -18,7 +18,7 @@ export const Cards = () => {
           storage="1 TB Storage"
           granted="1 Granted User"
           upload="Send up to 4 GB"
-          style={{ backgroundColor: "#000300", color: "#00df9a" }}
+          buttonStyle={{ backgroundColor: "#000300", color: "#00df9a" }}
           middleCardStyle="md:my-0 my-8 bg-gray-100"
           middleCardImageStyle='bg-transparent'
         />

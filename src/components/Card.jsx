@@ -7,7 +7,7 @@ export const Card = ({
   storage,
   granted,
   upload,
-  style,
+  buttonStyle,
   middleCardStyle,
   middleCardImageStyle,
 }) => {
@@ -29,7 +29,7 @@ export const Card = ({
       </div>
       <button
         className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3"
-        style={style}
+        style={buttonStyle}
       >
         Start Trial
       </button>
